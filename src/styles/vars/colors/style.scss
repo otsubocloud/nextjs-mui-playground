@@ -1,0 +1,138 @@
+$primary-10: hsl(212, 90%, 99%);
+$primary-25: hsl(212, 90%, 97.5%);
+$primary-50: hsl(212, 90%, 95%);
+$primary-100: hsl(212, 90%, 90%);
+$primary-150: hsl(212, 90%, 80%);
+$primary-200: hsl(212, 90%, 70%);
+$primary-300: hsl(212, 90%, 60%);
+$primary-400: hsl(212, 90%, 50%);
+$primary-500: #005FCC; // SBI指定 hsl(212, 100%, 40%);
+$primary-550: hsl(212, 100%, 34%);
+$primary-600: hsl(212, 100%, 28%);
+$primary-700: hsl(212, 100%, 22%);
+$primary-800: hsl(212, 100%, 16%);
+$primary-900: hsl(212, 100%, 10%);
+
+$primary-dark-10: hsl(225, 82%, 99%);
+$primary-dark-25: hsl(225, 82%, 97.5%);
+$primary-dark-50: hsl(225, 82%, 95%);
+$primary-dark-100: hsl(225, 82%, 90%);
+$primary-dark-150: hsl(225, 82%, 76%);
+$primary-dark-200: hsl(225, 82%, 64%);
+$primary-dark-300: hsl(225, 82%, 52%);
+$primary-dark-400: hsl(225, 82%, 40%);
+$primary-dark-500: #092987; // SBI指定 hsl(225, 87%, 28%)
+$primary-dark-550: hsl(225, 87%, 24%);
+$primary-dark-600: hsl(225, 87%, 20%);
+$primary-dark-700: hsl(225, 87%, 16%);
+$primary-dark-800: hsl(225, 87%, 12%);
+$primary-dark-900: hsl(225, 87%, 8%);
+
+$primary-grayish-10: hsl(224, 20%, 99%);
+$primary-grayish-25: hsl(224, 20%, 97.5%);
+$primary-grayish-50: hsl(224, 20%, 95%);
+$primary-grayish-75: hsl(224, 20%, 92.5%);
+$primary-grayish-100: hsl(224, 20%, 90%);
+$primary-grayish-150: hsl(224, 20%, 85%);
+$primary-grayish-200: hsl(224, 20%, 80%);
+$primary-grayish-300: hsl(224, 20%, 70%);
+$primary-grayish-400: hsl(224, 20%, 60%);
+$primary-grayish-500: hsl(224, 20%, 50%);
+$primary-grayish-600: hsl(224, 20%, 40%);
+$primary-grayish-700: hsl(224, 20%, 30%);
+$primary-grayish-800: hsl(224, 20%, 20%);
+$primary-grayish-900: hsl(224, 20%, 10%);
+
+$semi-primary-10: hsl(207, 73%, 99%);
+$semi-primary-25: hsl(207, 73%, 97.5%);
+$semi-primary-50: hsl(207, 73%, 95%);
+$semi-primary-100: hsl(207, 73%, 90%);
+$semi-primary-150: hsl(207, 73%, 85%);
+$semi-primary-200: hsl(207, 73%, 80%);
+$semi-primary-300: hsl(207, 73%, 70%);
+$semi-primary-400: hsl(207, 73%, 60%);
+$semi-primary-500: hsl(207, 73%, 50%);
+$semi-primary-650: hsl(207, 73%, 45%);
+$semi-primary-600: hsl(207, 73%, 40%);
+$semi-primary-700: hsl(207, 73%, 30%);
+$semi-primary-800: hsl(207, 73%, 20%);
+$semi-primary-900: hsl(207, 73%, 10%);
+
+
+$secondary-10: hsl(27, 80%, 99%);
+$secondary-25: hsl(27, 80%, 97.5%);
+$secondary-50: hsl(27, 80%, 95%);
+$secondary-100: hsl(27, 80%, 90%);
+$secondary-150: hsl(27, 80%, 85%);
+$secondary-200: hsl(27, 80%, 80%);
+$secondary-300: hsl(27, 80%, 70%);
+$secondary-400: hsl(27, 80%, 60%);
+$secondary-500: hsl(27, 80%, 50%);
+$secondary-600: hsl(27, 80%, 40%);
+$secondary-700: hsl(27, 80%, 30%);
+$secondary-800: hsl(27, 80%, 20%);
+$secondary-900: hsl(27, 80%, 10%);
+
+$optional-10: hsl(140, 35%, 99%);
+$optional-25: hsl(140, 35%, 97.5%);
+$optional-50: hsl(140, 35%, 95%);
+$optional-100: hsl(140, 35%, 90%);
+$optional-150: hsl(140, 35%, 85%);
+$optional-200: hsl(140, 35%, 80%);
+$optional-300: hsl(140, 35%, 70%);
+$optional-400: hsl(140, 35%, 60%);
+$optional-500: hsl(140, 35%, 50%);
+$optional-600: hsl(140, 35%, 40%);
+$optional-700: hsl(140, 35%, 30%);
+$optional-800: hsl(140, 35%, 20%);
+$optional-900: hsl(140, 35%, 10%);
+$optional-text: hsl(140, 35%, 45%);
+
+$error-10: hsl(356, 80%, 99%);
+$error-25: hsl(356, 80%, 97.5%);
+$error-50: hsl(356, 80%, 95%);
+$error-100: hsl(356, 80%, 90%);
+$error-150: hsl(356, 80%, 87%);
+$error-200: hsl(356, 80%, 83%);
+$error-300: hsl(356, 80%, 77%);
+$error-400: hsl(356, 80%, 70%);
+$error-500: hsl(356, 80%, 60%);
+$error-600: hsl(356, 80%, 40%);
+$error-700: hsl(356, 80%, 30%);
+$error-800: hsl(356, 80%, 20%);
+$error-900: hsl(356, 80%, 10%);
+
+$gray-0: hsl(210, 15%, 10%);
+$gray-10: hsl(210, 15%, 11%);
+$gray-25: hsl(210, 15%, 12.5%);
+$gray-50: hsl(210, 15%, 15%);
+$gray-75: hsl(210, 15%, 16.5%);
+$gray-100: hsl(210, 15%, 18%);
+$gray-150: hsl(210, 15%, 22%);
+$gray-200: hsl(210, 15%, 26%);
+$gray-250: hsl(214, 15%, 29%);
+$gray-300: hsl(210, 15%, 32%);
+$gray-350: hsl(210, 15%, 38%);
+$gray-400: hsl(210, 15%, 45%);
+$gray-500: hsl(210, 15%, 55%);
+$gray-600: hsl(210, 15%, 65%);
+$gray-700: hsl(210, 15%, 75%);
+$gray-800: hsl(210, 15%, 83%);
+$gray-900: hsl(210, 15%, 90%);
+$gray-1000: hsl(210, 15%, 100%);
+
+$gray-opacity-low: hsla(0, 0%, 0%, 0.1);
+$gray-opacity-lower: hsla(0, 0%, 0%, 0.3);
+$gray-opacity-mid: hsla(0, 0%, 0%, 0.5);
+$gray-opacity-higher: hsla(0, 0%, 0%, 0.7);
+$gray-opacity-high: hsla(0, 0%, 0%, 0.95);
+
+
+$shadow-light: hsla(0, 0%, 0%, 0.1);
+$shadow-main: hsla(0, 0%, 0%, 0.25);
+$shadow-dark: hsla(0, 0%, 0%, 0.35);
+
+$text-light: hsl(0, 0%, 70%);
+$text-weak: hsl(0, 0%, 45%);
+$text-main: hsl(0, 0%, 25%);
+$text-dark: hsl(0, 0%, 5%);

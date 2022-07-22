@@ -1,0 +1,14 @@
+@import '/src/styles/vars/index';
+
+.closer {
+  position: absolute;
+  top: $space-1;
+  right: $space-2;
+  z-index: 1;
+
+  @media (min-width: $breakpoint-sm) {
+    top: 0;
+    right: 0;
+  }
+}
+

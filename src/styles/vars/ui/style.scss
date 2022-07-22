@@ -1,0 +1,54 @@
+@import '../colors/style';
+@import '../sizes/style';
+
+$zIndex-stepper: 1000;
+$zIndex-speedDial: 1050;
+$zIndex-appBar: 1100;
+$zIndex-drawer: 1200;
+$zIndex-modal: 1300;
+$zIndex-snackbar: 1400;
+$zIndex-tooltip: 1500;
+
+$main-mx-xs: $space-2;
+$main-mx-sm: $space-3;
+$main-mx-base: $space-4;
+
+// Background
+$bg-base: #F5F6F7;
+$bg-dialog: #F5F6F7;
+$bg-light: hsl(200, 43%, 100%);
+
+// Dialog
+$dialog-bg: white;
+$dialog-prevButton: $primary-500;
+$dialog-drawer-radius: $px-10;
+
+// Backdrop
+$overlay: hsla(0, 0%, 100%, 0.5);
+
+// Paper
+$paper-mx-mobile: $space-2;
+$paper-mx-base: $space-4;
+
+// Tabs
+$tabs-text: $primary-500;
+$tabs-selected-bar: $primary-500;
+$tabs-selected-text: $primary-500;
+$tabs-border: $gray-300;
+
+// Card
+$card-border: #E6E8F0;
+$card-border-moTop: #E6E8F0;
+$card-border-moBottom: #E6E8F0;
+$card-shadow: none;
+
+// ToggleButton
+$toggleButton-selected-bg: $primary-500;
+$toggleButton-selected-text: white;
+$toggleButton-bg: white;
+$toggleButton-text: $primary-500;
+$toggleButton-border: #E6E8F0;
+
+// Link
+$link-text: $primary-dark-500;
+$link-underline: $primary-300;

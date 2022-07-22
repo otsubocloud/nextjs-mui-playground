@@ -1,0 +1,15 @@
+@import 'style';
+
+:export {
+  touchBox-bg: $touchBox-bg;
+  movable-toolView-width: $movable-toolView-width;
+  movable-toolView-height: $movable-toolView-height;
+
+  selected-HLight: $selected-HLight;
+  selection-stroke: $selection-stroke;
+  selection-fill: $selection-fill;
+  cursor-fill: $cursor-fill;
+  cursor-stroke: $cursor-stroke;
+  cross-cursor-fill: $cross-cursor-fill;
+  cross-cursor-stroke: $cross-cursor-stroke;
+}

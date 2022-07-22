@@ -1,0 +1,10 @@
+@import '/src/styles/vars/index';
+
+.root {
+  :global {
+    .react-datepicker-wrapper {
+      display: inline-block;
+      width: auto;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@import '/src/styles/vars/index';
+
+.root {
+  padding: $space-3 0 $space-3;
+  @media (min-width: $breakpoint-sm) {
+    padding: $space-4 0 $space-4;
+    min-width: $px-448;
+  }
+
+  &__title {
+    color: hsl(207, 60%, 40%);
+    font-weight: 700;
+    font-size: $text-md;
+    margin-bottom: $space-4;
+
+    i {
+      height: $text-lg;
+      color: hsl(207, 60%, 50%);
+    }
+
+    span {
+      line-height: 1.5;
+    }
+  }
+
+  &__content {
+    padding-left: $space-0;
+    font-size: $text-md;
+
+    :global {
+      .MuiFormControlLabel-root {
+        min-width: calc(50% - #{$space-8});
+        margin-right: $space-4;
+      }
+
+      .MuiCheckbox-root {
+        padding: $space-1_5;
+      }
+    }
+  }
+}
+

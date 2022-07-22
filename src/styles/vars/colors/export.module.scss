@@ -1,0 +1,126 @@
+@import 'style';
+
+:export {
+  primary-10: $primary-10;
+  primary-25: $primary-25;
+  primary-50: $primary-50;
+  primary-100: $primary-100;
+  primary-150: $primary-150;
+  primary-200: $primary-200;
+  primary-300: $primary-300;
+  primary-400: $primary-400;
+  primary-500: $primary-500;
+  primary-550: $primary-550;
+  primary-600: $primary-600;
+  primary-700: $primary-700;
+  primary-800: $primary-800;
+  primary-900: $primary-900;
+
+  primary-dark-10: $primary-dark-10;
+  primary-dark-25: $primary-dark-25;
+  primary-dark-50: $primary-dark-50;
+  primary-dark-100: $primary-dark-100;
+  primary-dark-150: $primary-dark-150;
+  primary-dark-200: $primary-dark-200;
+  primary-dark-300: $primary-dark-300;
+  primary-dark-400: $primary-dark-400;
+  primary-dark-500: $primary-dark-500;
+  primary-dark-550: $primary-dark-550;
+  primary-dark-600: $primary-dark-600;
+  primary-dark-700: $primary-dark-700;
+  primary-dark-800: $primary-dark-800;
+  primary-dark-900: $primary-dark-900;
+
+  primary-grayish-10: $primary-grayish-10;
+  primary-grayish-25: $primary-grayish-25;
+  primary-grayish-50: $primary-grayish-50;
+  primary-grayish-100: $primary-grayish-100;
+  primary-grayish-150: $primary-grayish-150;
+  primary-grayish-200: $primary-grayish-200;
+  primary-grayish-300: $primary-grayish-300;
+  primary-grayish-400: $primary-grayish-400;
+  primary-grayish-500: $primary-grayish-500;
+  primary-grayish-600: $primary-grayish-600;
+  primary-grayish-700: $primary-grayish-700;
+  primary-grayish-800: $primary-grayish-800;
+  primary-grayish-900: $primary-grayish-900;
+
+  semi-primary-10: $semi-primary-10;
+  semi-primary-25: $semi-primary-25;
+  semi-primary-50: $semi-primary-50;
+  semi-primary-100: $semi-primary-100;
+  semi-primary-150: $semi-primary-150;
+  semi-primary-200: $semi-primary-200;
+  semi-primary-300: $semi-primary-300;
+  semi-primary-400: $semi-primary-400;
+  semi-primary-500: $semi-primary-500;
+  semi-primary-650: $semi-primary-650;
+  semi-primary-600: $semi-primary-600;
+  semi-primary-700: $semi-primary-700;
+  semi-primary-800: $semi-primary-800;
+  semi-primary-900: $semi-primary-900;
+
+  secondary-10: $secondary-10;
+  secondary-25: $secondary-25;
+  secondary-50: $secondary-50;
+  secondary-100: $secondary-100;
+  secondary-150: $secondary-150;
+  secondary-200: $secondary-200;
+  secondary-300: $secondary-300;
+  secondary-400: $secondary-400;
+  secondary-500: $secondary-500;
+  secondary-600: $secondary-600;
+  secondary-700: $secondary-700;
+  secondary-800: $secondary-800;
+  secondary-900: $secondary-900;
+
+  optional-25: $optional-25;
+  optional-50: $optional-50;
+  optional-100: $optional-100;
+  optional-150: $optional-150;
+  optional-200: $optional-200;
+  optional-300: $optional-300;
+  optional-400: $optional-400;
+  optional-500: $optional-500;
+  optional-600: $optional-600;
+  optional-700: $optional-700;
+  optional-800: $optional-800;
+  optional-900: $optional-900;
+  optional-text: $optional-text;
+
+  error-50: $error-50;
+  error-100: $error-100;
+  error-200: $error-200;
+  error-300: $error-300;
+  error-400: $error-400;
+  error-500: $error-500;
+  error-600: $error-600;
+  error-700: $error-700;
+  error-800: $error-800;
+  error-900: $error-900;
+
+  gray-10: $gray-10;
+  gray-25: $gray-25;
+  gray-50: $gray-50;
+  gray-75: $gray-75;
+  gray-100: $gray-100;
+  gray-150: $gray-150;
+  gray-200: $gray-200;
+  gray-300: $gray-300;
+  gray-400: $gray-400;
+  gray-500: $gray-500;
+  gray-600: $gray-600;
+  gray-700: $gray-700;
+  gray-800: $gray-800;
+  gray-900: $gray-900;
+
+  shadow-light: $shadow-light;
+  shadow-main: $shadow-main;
+  shadow-dark: $shadow-dark;
+
+  text-light: $text-light;
+  text-weak: $text-weak;
+  text-main: $text-main;
+  text-dark: $text-dark;
+
+}

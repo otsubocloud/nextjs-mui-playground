@@ -1,0 +1,11 @@
+@import "/src/styles/vars/index";
+
+.paper {
+  height: auto;
+  max-height: calc(100% - #{$space-8});
+  border-radius: $dialog-drawer-radius $dialog-drawer-radius 0 0;
+}
+
+.container {
+  align-items: flex-end;
+}

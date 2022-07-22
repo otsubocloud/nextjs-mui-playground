@@ -1,0 +1,14 @@
+@import "/src/styles/vars/index";
+
+.content {
+  padding-top: $space-3;
+  padding-bottom: $space-5;
+  @media (min-width: $breakpoint-sm) {
+    padding-top: $space-4;
+    padding-bottom: $space-8;
+  }
+
+  &.fullContentFit {
+    padding: 0;
+  }
+}

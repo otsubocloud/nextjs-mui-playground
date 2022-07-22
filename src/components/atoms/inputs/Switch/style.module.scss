@@ -1,0 +1,9 @@
+@import '/src/styles/vars/index';
+
+.label {
+  color: $text-weak;
+
+  &.isChecked {
+    color: $primary-500;
+  }
+}

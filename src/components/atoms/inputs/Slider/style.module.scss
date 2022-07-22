@@ -1,0 +1,48 @@
+@import "/src/styles/vars/index";
+
+.root {
+  min-width: $px-80;
+  width: 100%;
+}
+
+.thumbIcon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  svg {
+    color: $gray-800;
+    font-size: $text-base;
+    line-height: 1;
+  }
+
+  pointer-events: all;
+  user-select: none;
+}
+
+.slider {
+  &__thumb {
+    width: $px-28;
+    height: $px-28;
+    background-color: $gray-150;
+    border: 1px solid $gray-300;
+  }
+
+  &__track {
+    background-color: $gray-250;
+    height: $px-8;
+  }
+
+  &__rail {
+    background-color: $gray-250;
+    height: $px-8;
+  }
+
+  &__valueLabel {
+    padding: $space-1;
+    text-align: center;
+    z-index: 10000000;
+    margin-left: -#{$space-2};
+  }
+}

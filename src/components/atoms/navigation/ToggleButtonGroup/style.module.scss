@@ -1,0 +1,43 @@
+@import '/src/styles/vars/index';
+
+.root {
+  padding: $space-1;
+  border: 1px solid $toggleButton-border;
+  border-radius: $radius-m;
+  box-shadow: $card-shadow;
+  background-color: white;
+
+  :global {
+    .MuiButtonBase-root {
+      border: none;
+      border-radius: $radius-m !important;
+      background-color: $toggleButton-bg;
+      margin: $px-1;
+
+      min-width: $px-64;
+      height: $px-36;
+      max-height: $px-40;
+      font-size: $text-base;
+      color: $toggleButton-text;
+      font-weight: 400;
+      padding: $space-1;
+
+      @media (min-width: $breakpoint-sm) {
+        min-width: $px-80;
+      }
+      @media (max-width: $breakpoint-xs) {
+        padding-bottom: $space-3;
+      }
+
+      &:hover {
+        background-color: darken($toggleButton-bg, 2%);
+      }
+
+      &.Mui-selected {
+        background-color: $toggleButton-selected-bg;
+        color: $toggleButton-selected-text;
+        font-weight: 700;
+      }
+    }
+  }
+}

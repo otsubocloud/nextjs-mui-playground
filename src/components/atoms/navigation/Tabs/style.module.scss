@@ -1,0 +1,17 @@
+@import '/src/styles/vars/index';
+
+.wrapper {
+  border-bottom: 1px solid $tabs-border;
+  @media (min-width: $breakpoint-md) {
+    display: flex;
+    justify-content: center;
+    margin-bottom: $space-4;
+    box-shadow: 0 4px 4px hsla(0, 0%, 0%, 0.025);
+    > * {
+      width: $main-max-width;
+      padding-left: $space-4;
+      padding-right: $space-4;
+    }
+  }
+
+}

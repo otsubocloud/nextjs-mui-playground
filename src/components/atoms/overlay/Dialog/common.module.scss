@@ -1,0 +1,24 @@
+@import '/src/styles/vars/index';
+
+.paper {
+  background-color: $dialog-bg;
+  background-image: none;
+}
+
+.paperPC {
+  min-width: $px-384;
+  border-radius: $radius-m;
+}
+
+.paddingX {
+  padding-left: $space-2;
+  padding-right: $space-2;
+  @media (min-width: $breakpoint-xs) {
+    padding-left: $space-4;
+    padding-right: $space-4;
+  }
+  @media (min-width: $breakpoint-sm) {
+    padding-left: $space-6;
+    padding-right: $space-6;
+  }
+}

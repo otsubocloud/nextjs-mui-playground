@@ -1,0 +1,30 @@
+@import '/src/styles/vars/index';
+
+.header {
+  font-size: $text-lg;
+  color: $barTitle-text;
+  font-weight: 700;
+  margin-bottom: $space-3;
+
+  &.isSmall {
+    font-size: $text-md;
+    margin-bottom: $space-2;
+  }
+
+  &__bar {
+    display: inline-block;
+    width: $px-4;
+    height: $text-xl;
+    vertical-align: -#{$space-1};
+    background-color: $barTitle-color;
+    margin-right: $space-2;
+  }
+
+  &__title {
+  }
+
+  small {
+    font-size: $text-smaller-l;
+    margin-left: $space-1;
+  }
+}

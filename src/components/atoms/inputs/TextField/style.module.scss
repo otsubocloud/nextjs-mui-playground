@@ -1,0 +1,11 @@
+@import '/src/styles/vars/index';
+
+.root {
+  :global .MuiInputBase-root {
+    background-color: hsla(0, 0%, 100%, 0.7);
+  }
+
+  :global .MuiFormHelperText-root {
+    background-color: transparent;
+  }
+}

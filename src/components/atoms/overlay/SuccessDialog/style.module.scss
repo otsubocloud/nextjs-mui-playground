@@ -1,0 +1,68 @@
+@import "/src/styles/vars/index";
+
+.content {
+  width: calc(100% - #{$space-6});
+  padding: $space-5 $space-6 $space-7;
+  background-color: $optional-25;
+  text-align: center;
+  box-shadow: 0 -2px 20px hsla(140, 20%, 20%, 0.25);
+  border-radius: $radius-m;
+  border: 1px solid hsla(140, 30%, 80%);
+
+  @media (min-width: $breakpoint-sm) {
+    width: $px-320;
+  }
+
+
+  &__message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-weight: 500;
+    margin-bottom: $space-2;
+    @media (min-width: $breakpoint-sm) {
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: row;
+    }
+
+    &__icon {
+      font-size: $px-40;
+      display: block;
+      color: $optional-300;
+      margin-bottom: $space-3;
+      @media (min-width: $breakpoint-sm) {
+        margin-right: $space-3;
+      }
+    }
+
+    &__text {
+      font-size: $text-md;
+      line-height: 1.5;
+      color: $optional-700;
+      margin-bottom: -#{$space-2};
+      @media (min-width: $breakpoint-sm) {
+        margin-top: $space-2;
+      }
+
+      p {
+        margin-bottom: $space-1;
+        text-align: center;
+
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  &__buttonWrapper {
+    display: flex;
+    justify-content: center;
+    @media (min-width: $breakpoint-sm) {
+      justify-content: flex-end;
+    }
+  }
+}

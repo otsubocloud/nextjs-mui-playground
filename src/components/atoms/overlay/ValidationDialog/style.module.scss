@@ -1,0 +1,43 @@
+@import "/src/styles/vars/index";
+
+.paper {
+  min-width: $px-320;
+  @media (min-width: $breakpoint-sm) {
+    min-width: $px-384;
+  }
+}
+
+.content {
+  padding: $space-5 $space-4;
+
+  &__messages {
+
+    $list-indent: $px-36;
+
+    &__row {
+      position: relative;
+      margin-bottom: $space-1;
+      padding-left: $list-indent;
+      line-height: 1;
+
+      &__icon {
+        position: relative;
+        display: inline-block;
+        width: $list-indent;
+        margin-left: -#{$list-indent};
+        vertical-align: -#{$space-1};
+
+        &__svg {
+          color: $error-300;
+          font-size: $px-28;
+        }
+      }
+
+      &__text {
+        font-size: $text-md;
+        line-height: 1.6;
+      }
+    }
+  }
+}
+

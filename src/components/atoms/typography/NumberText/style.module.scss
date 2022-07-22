@@ -1,0 +1,38 @@
+@import '/src/styles/vars/index';
+
+.root {
+  &__number {
+    font-size: 125%;
+  }
+
+  &__prefix {
+    margin-right: $space-0_5;
+  }
+
+  &__suffix {
+    font-size: $text-smaller-l;
+    margin-left: $space-0_5;
+
+    &.isSmall {
+      font-size: $text-smaller-s;
+      font-weight: 700;
+    }
+
+    &.isMedium {
+      font-size: $text-smaller-m;
+    }
+
+    &.isLarge {
+      font-size: 0.95em;
+    }
+  }
+
+  &.isUnstyled &__number {
+    font-size: 105%
+  }
+
+  &.isUnstyled &__suffix {
+    font-size: unset;
+    font-weight: unset;
+  }
+}

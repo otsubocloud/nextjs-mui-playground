@@ -1,0 +1,9 @@
+@import '/src/styles/vars/index';
+
+.time {
+  display: block;
+  margin: $space-3 0;
+  text-align: right;
+  font-size: $text-sm;
+  color: $text-weak;
+}

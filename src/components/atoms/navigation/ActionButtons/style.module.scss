@@ -1,0 +1,128 @@
+@import "/src/styles/vars/index";
+
+
+@mixin isButtonCount3Common() {
+  button {
+    margin-left: $space-2;
+
+    &:nth-child(1) {
+      margin-left: 0;
+    }
+  }
+
+  @media (max-width: $breakpoint-sm) {
+    justify-content: space-between;
+    button {
+      width: calc(33% - #{$space-2});
+      margin: 0;
+    }
+  }
+}
+
+.actions {
+  width: 100%;
+
+  &.isCenter {
+    display: flex;
+    justify-content: center;
+
+    button {
+      margin: $space-2;
+    }
+
+    &.isButtonCount-3 {
+      @include isButtonCount3Common();
+    }
+  }
+
+  &.isRight {
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+      margin-left: $space-4;
+    }
+
+    &.isButtonCount-3 {
+      @include isButtonCount3Common();
+    }
+
+  }
+
+  &.isAuto {
+    display: flex;
+    justify-content: flex-end;
+
+
+    &.isButtonCount-1 {
+      display: flex;
+      justify-content: flex-end;
+
+      @media (max-width: $breakpoint-sm) {
+        justify-content: center;
+        button {
+          min-width: 50%;
+        }
+      }
+    }
+
+    &.isButtonCount-2 {
+      button {
+        margin-left: $space-4;
+        @media (min-width: $breakpoint-sm) {
+          min-width: $px-144;
+        }
+
+        &:nth-child(1) {
+          margin-left: 0;
+        }
+      }
+
+      @media (max-width: $breakpoint-sm) {
+        justify-content: space-between;
+        button {
+          width: calc(50% - #{$space-1});
+          margin-left: 0;
+        }
+      }
+    }
+
+    &.isButtonCount-3 {
+      @include isButtonCount3Common();
+    }
+  }
+
+}
+
+
+.withDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__description {
+    margin-bottom: $space-3;
+  }
+
+  &__buttonGroup {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+
+  @media (min-width: $breakpoint-sm) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    &__description {
+      flex: 1 1 auto;
+    }
+    &__buttonGroup {
+      flex: 0 0 auto;
+      justify-content: flex-end;
+    }
+  }
+
+}

@@ -1,0 +1,21 @@
+@import '/src/styles/vars/index';
+
+.icon {
+  color: $semi-primary-500;
+  margin-top: -#{$space-3};
+  margin-bottom: -#{$space-2};
+  font-size: $text-xl;
+  line-height: 1;
+}
+
+.paper {
+  background-color: $dialog-bg;
+  padding: $space-0;
+  border-radius: $radius-m;
+  background-image: none;
+}
+
+
+.isOpen > * {
+  background-color: $gray-250 !important;
+}

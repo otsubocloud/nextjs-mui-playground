@@ -1,0 +1,36 @@
+@import '/src/styles/vars/index';
+
+.header {
+  display: flex;
+  align-items: center;
+  line-height: 1.25;
+  margin-bottom: $space-1;
+  font-size: $text-lg;
+  font-weight: 500;
+  @media (min-width: $breakpoint-xs) {
+    margin-bottom: $space-2;
+  }
+  @media (min-width: $breakpoint-sm) {
+    margin-bottom: $space-3;
+  }
+
+  &__icon {
+    color: $primary-500;
+    margin-right: $space-2;
+
+    :global .MuiSvgIcon-root {
+      font-size: 150%;
+    }
+  }
+
+  &__title {
+    color: $gray-700;
+    font-weight: 500;
+
+    small {
+      font-size: $text-smaller-m;
+      font-weight: 400;
+    }
+  }
+
+}

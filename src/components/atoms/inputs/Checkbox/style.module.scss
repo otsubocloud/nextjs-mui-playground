@@ -1,0 +1,9 @@
+@import '/src/styles/vars/index';
+
+.root {
+  margin-left: -#{$space-1};
+}
+
+.checkbox {
+  padding: $space-2;
+}

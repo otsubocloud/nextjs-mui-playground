@@ -1,0 +1,28 @@
+@import '/src/styles/vars/index';
+
+.root {
+  position: relative;
+  margin-bottom: $space-4;
+  border-radius: $radius-m;
+  padding: $paper-mx-mobile;
+  background-color: white;
+
+  @media (min-width: $breakpoint-sm) {
+    padding: $paper-mx-base;
+  }
+
+  :global {
+    .AppPaper:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+.AppMobileFullWidth .AppPaper {
+  border-radius: 0;
+
+  @media (min-width: $breakpoint-sm) {
+    border-radius: inherit;
+  }
+}

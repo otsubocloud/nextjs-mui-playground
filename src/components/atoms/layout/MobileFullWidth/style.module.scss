@@ -1,0 +1,19 @@
+@import '/src/styles/vars/index';
+
+.root {
+  @media (max-width: $breakpoint-xs) {
+    margin: 0 -#{$main-mx-xs};
+    :global .AppPaper {
+      border-radius: 0;
+      padding: $main-mx-xs;
+    }
+  }
+  @media (max-width: $breakpoint-sm) {
+    margin: 0 -#{$main-mx-sm};
+    :global .AppPaper {
+      border-radius: 0;
+      padding: $main-mx-sm;
+    }
+  }
+}
+

@@ -1,0 +1,11 @@
+@import '/src/styles/vars/index';
+
+.root {
+  color: $text-weak;
+  font-size: $text-sm;
+  line-height: 1.4;
+
+  p {
+    margin-bottom: $space-1;
+  }
+}

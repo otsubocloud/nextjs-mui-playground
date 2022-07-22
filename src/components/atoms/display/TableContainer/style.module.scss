@@ -1,0 +1,154 @@
+@import '/src/styles/vars/index';
+
+.root {
+  position: relative;
+  overflow-x: unset;
+  border-top: 1px solid $table-border-base;
+  margin-bottom: $space-3;
+
+  table {
+    overflow: hidden;
+    background-color: white;
+  }
+
+  thead {
+    tr {
+      border-radius: $radius-m $radius-m 0 0;
+      background-color: $table-bg-head;
+    }
+
+    td, th {
+      padding: $space-2 $space-3;
+      color: $table-head-text;
+      font-size: $text-smLg;
+      font-weight: 400;
+      border-bottom: 1px solid $table-border-base;
+      border-right: 1px solid $table-border-vertical;
+    }
+
+  }
+
+  tbody {
+    td {
+      font-size: $text-base;
+      padding: $space-2 $space-3;
+      border-bottom: 1px solid $table-border-base;
+      border-right: 1px solid $table-border-vertical;
+      color: $table-body-text;
+
+      &:last-of-type {
+        border-right: none;
+      }
+
+      @media(min-width: $breakpoint-sm) {
+        font-size: $text-md;
+      }
+    }
+  }
+}
+
+.card,
+.outlined,
+.contained {
+  border: 1px solid $table-border-base;
+  border-radius: $radius-m;
+
+  > table {
+    border-radius: $radius-m;
+
+    > tbody > tr {
+      &:last-of-type {
+        > td,
+        > th, {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}
+
+.bar {
+  border-top: 1px solid $table-border-base;
+
+  &.separator-none {
+    border-bottom: 1px solid $table-border-base;
+  }
+}
+
+.background {
+  &-none {
+    > table {
+      background-color: transparent;
+    }
+  }
+
+  &-light {
+    > table {
+      background-color: $table-bg-light;
+    }
+  }
+
+}
+
+.rowBackground {
+  &-even {
+    > table > tbody > tr:nth-of-type(even) {
+      background-color: $table-bg-each;
+    }
+  }
+
+  &-odd {
+    > table > tbody > tr:nth-of-type(odd) {
+      background-color: $table-bg-each;
+    }
+  }
+
+  &-none {
+    > table > tbody > tr {
+      background-color: transparent;
+    }
+  }
+}
+
+.card {
+  border: 1px solid $table-border-base;
+  border-bottom-color: $table-border-base;
+  padding: 1px;
+  background-color: white;
+
+  :global .MuiTableHead-root {
+    border-bottom: 1px solid $table-border-head;
+  }
+}
+
+.contained {
+  border-color: white;
+
+  > table {
+    border-radius: 0;
+  }
+}
+
+.separator {
+  &-none {
+    > table > tbody > tr > td,
+    > table > tbody > tr > th {
+      border: none;
+    }
+  }
+
+  &-row {
+    > table > tbody > tr > td {
+      border-right: none !important;
+      border-left: none !important;
+    }
+  }
+
+  &-column {
+    > table > tbody > tr > td {
+      border-top: none !important;
+      border-bottom: none !important;
+    }
+  }
+
+}
