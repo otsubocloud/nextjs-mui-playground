@@ -1,6 +1,6 @@
 import { atom } from 'recoil'
 
-export const xxxState = atom<boolean>({
-  key: 'xxxState',
+export const testDialogOpenState = atom<boolean>({
+  key: 'testDialogOpenState',
   default: false,
 })
